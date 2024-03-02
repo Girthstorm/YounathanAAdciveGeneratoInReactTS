@@ -1,0 +1,55 @@
+@font-face {
+  font-family: manrope;
+  src: url(./fonts/Manrope/static/Manrope-SemiBold.ttf);
+}
+
+
+.containerBox {
+  background-color: hsl(217, 19%, 24%);
+  max-width: 32rem;
+  padding: 25px 25px 55px 25px;
+  border-radius: 15px;
+}
+
+.idText {
+  font-family: manrope;
+  color: #51F4A4;
+}
+
+.adviceTxt {
+  font-family: manrope;
+  color: #B3C5CD;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+
+
+
+.diceBtn {
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 100%;
+  padding: 20px;
+  position: relative;
+  bottom: 35px;
+}
+
+.diceBtn:hover {
+  box-shadow: 0 0 30px #52ffa8;
+  opacity: 0.9;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .containerBox {
+    max-width: 350px;
+  }
+}
